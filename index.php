@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,14 +22,14 @@
 
         <div class="caixa2">
             <div class="caixote">                
-                <form action="">
+                <form method="POST" action="scripts/cadastro.php">
                     <label>
                         <h3>Bem vindo</h3>
                         Nome &nbsp; <input class="caixa_input" type="text" id="nome" name="nome" placeholder="Digite seu nome completo"></input> <br>
                         E-mail &nbsp;<input class="caixa_input" type="email" id="email" name="email" placeholder="Digite seu email"></input> <br>
                         Tel&nbsp; <input  class="caixa_input" type="number" id="telefone" name="telefone" placeholder="Digite seu telefone"></input> <br>
                         Idade &nbsp; <input class="caixa_input" type="number" id="idade" name="idade" placeholder="Digite sua idade"></input> <br>                        
-                        <button>CADASTRAR</button>
+                        <button id="cadastrar" name="cadastrar">CADASTRAR</button>  
                     </label>
 
                 </form>

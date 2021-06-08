@@ -2,7 +2,7 @@ CREATE DATABASE db_cadastro;
 
 USE db_cadastro;
 
-CREATE TABLE db_cadastro(
+CREATE TABLE usuario(
 
     id_usuario INT(20) AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,

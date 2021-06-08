@@ -1,13 +1,14 @@
 <?php
 
 $servidor = "localhost";
-$db = "db_cadastro";
 $usuario = "root";
-$senha = "123"; 
+$senha = ""; 
+$db = "db_cadastro";
 
+#CRIANDO CONEXÃO COM O BANCO
+$conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 
-$conexao = mysqli_connect($servidor, $db, $usuario, $senha);
-
+#CASO NÂO TENHA CONEXÃO
 if(!$conexao){
     echo 'Erro ao conectar no servidor';
 }
