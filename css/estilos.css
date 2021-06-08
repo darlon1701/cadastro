@@ -14,32 +14,90 @@ body{
 }
 
 .caixa1{
-    
-    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     width: 50%;
     height: 623px;
     float: left;
+    margin-left: 35px;
+
 }
 
+h1{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 3.0em;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+p{
+    color: rgb(247, 247, 126);
+}
+
+
+
 .caixa2{
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 623px;
-    width: 50%;
+    width: 70%;
     float: right;
 }
 
 
 .caixote{
-    background: green;
+    background: rgb(48, 94, 48);
+    opacity: 1.8;
     display: flex;
     justify-content: center;
-    align-items: 50;
+    align-items: center;
     width: 50%;
     height: 70%;
+    border-radius: 3px;
+}
+
+h3{
+    font: bold;
+    font-size: 1.7em;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.caixa_input{
+    width: 300px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    text-align: center;
 }
 
 
+button{
+    font-size: 1.0em;
+    color: white;
+    height: 30px;
+    width: 130px;
+    margin-left: 31%;
+    border: black 1px solid;
+    border-radius: 10px;
+    background: rgb(56, 63, 56);
+    
+}
 
+button:hover{
+    background: yellow;
+    border:black 2px solid ;
+    color: black;
+    cursor: pointer;
+
+}

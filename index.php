@@ -13,20 +13,24 @@
     <div class="container">
         
         <div class="caixa1">
-    
+            <div>
+                <h1>
+                    <p>O sucesso é apenas uma consequência da sua força de vontade.</p>
+                </h1>
+                </div>
         </div>
 
         <div class="caixa2">
             <div class="caixote">                
                 <form action="">
                     <label>
-                        Nome: &nbsp; <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"></input> <br>
-                        E-mail: &nbsp;<input type="email" id="email" name="email" placeholder="Digite seu email"></input> <br>
-                        Tel:&nbsp; <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone"></input> <br>
-                        Idade: &nbsp; <input type="number" id="idade" name="idade" placeholder="Digite sua idade"></input> <br>                        
+                        <h3>Bem vindo</h3>
+                        Nome &nbsp; <input class="caixa_input" type="text" id="nome" name="nome" placeholder="Digite seu nome completo"></input> <br>
+                        E-mail &nbsp;<input class="caixa_input" type="email" id="email" name="email" placeholder="Digite seu email"></input> <br>
+                        Tel&nbsp; <input  class="caixa_input" type="number" id="telefone" name="telefone" placeholder="Digite seu telefone"></input> <br>
+                        Idade &nbsp; <input class="caixa_input" type="number" id="idade" name="idade" placeholder="Digite sua idade"></input> <br>                        
+                        <button>CADASTRAR</button>
                     </label>
-
-                    <button>CADASTRAR</button>
 
                 </form>
             </div>
